@@ -1,0 +1,104 @@
+.neurox {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode {
+    background-color: #1e1e1e;
+    color: #f9f9f9;
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.header h1 {
+    font-size: 2.5em;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #4CAF50;
+    transition: color 0.3s;
+}
+
+.nav a:hover {
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 20px 0;
+    padding: 20px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.responsive {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.responsive img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+@media (max-width: 600px) {
+    .header h1 {
+        font-size: 2em;
+    }
+    .nav {
+        flex-direction: column;
+    }
+}
+
+.accessible {
+    font-size: 1em;
+    line-height: 1.5;
+    padding: 10px;
+}
+
+/* Neurodiversity-Friendly Styles */
+.neuro-friendly {
+    background-color: #e0f7fa;
+    color: #000;
+}
+
+.neuro-friendly button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.neuro-friendly button:hover {
+    background-color: #45a049;
+}
